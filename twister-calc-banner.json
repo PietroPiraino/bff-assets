@@ -1,5 +1,9 @@
 {
   "active": true,
-  "url": "https://pietropiraino.github.io/bff-assets/banner.html",
-  "height": 90
+  "click_url": "https://discord.gg/Bt3EUW2MG",
+  "title": "Vuoi migliorare agli Spin & Go / Twister?",
+  "subtitle": "Unisciti al gruppo BFF — Best Fish Forever, la scuola di poker attiva dal 2025!",
+  "cta": "Entra su Discord →",
+  "height": 90,
+  "bg_image": "https://pietropiraino.github.io/bff-assets/banner_bg.jpg"
 }
