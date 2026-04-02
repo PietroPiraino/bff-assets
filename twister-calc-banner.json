@@ -1,12 +1,29 @@
 {
   "active": true,
-  "click_url": "https://discord.gg/Bt3EUW2MG",
-  "title": "Vuoi migliorare agli Spin & Go / Twister?",
-  "subtitle": "Unisciti al gruppo BFF — Best Fish Forever, la scuola di poker attiva dal 2025!",
-  "cta": "Entra su Discord →",
+  "interval": 6,
   "height": 90,
-  "show_logo": true,
-  "show_icon": true,
-  "logo_url": "https://pietropiraino.github.io/bff-assets/bff_logo.png",
-  "bg_image": "https://pietropiraino.github.io/bff-assets/banner_bg.jpg"
+  "banners": [
+    {
+      "click_url": "https://discord.gg/Bt3EUW2MG",
+      "title": "Vuoi migliorare agli Spin & Go / Twister?",
+      "subtitle": "Unisciti al gruppo BFF — Best Fish Forever!",
+      "cta": "Entra su Discord  →",
+      "show_logo": true,
+      "show_icon": true,
+      "icon": "f140"
+      "logo_url": "https://pietropiraino.github.io/bff-assets/bff_logo.png",
+      "bg_image": "https://pietropiraino.github.io/bff-assets/banner_bg.jpg"
+    },
+    {
+      "click_url": "https://gtowizard.com/p/fullspinpoker",
+      "title": "Crusha i tuoi avversari!",
+      "subtitle": "GTO Wizard è il miglior software per exploitare la competizione",
+      "cta": "Vai al sito  →",
+      "show_logo": true,
+      "show_icon": true,
+      "icon": "f005"
+      "logo_url": "https://pietropiraino.github.io/bff-assets/bff_logo.png",
+      "bg_image": "https://pietropiraino.github.io/bff-assets/gtowizard_banner.jpg"
+    }
+  ]
 }
