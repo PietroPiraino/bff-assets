@@ -2,18 +2,55 @@
 <html>
 <head>
 <meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
 <style>
-body { background: #2a2b45; font-family: Arial, sans-serif; margin: 10px 18px; }
-p { margin: 0 0 6px 0; }
-.badge { background-color: #e63946; color: #ffffff; font-size: 11px; font-weight: bold; padding: 2px 6px; }
-.main  { color: #f4a261; font-size: 14px; font-weight: bold; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background: #2a2b45;
+  font-family: 'Comfortaa', 'Segoe UI', Arial, sans-serif;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+a.banner {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 12px 20px;
+  gap: 16px;
+  text-decoration: none;
+  background: #2a2b45;
+  transition: background 0.15s;
+}
+a.banner:hover { background: #32334f; }
+.logo { width: 56px; height: 56px; flex-shrink: 0; border-radius: 8px; }
+.text { flex: 1; }
+.title { color: #f4a261; font-size: 14px; font-weight: 700; margin-bottom: 4px; }
 .sub   { color: #e2e4f0; font-size: 11px; }
-a.cta  { background-color: #4c9be8; color: #ffffff; font-size: 11px; font-weight: bold; padding: 4px 14px; text-decoration: none; }
+.cta {
+  flex-shrink: 0;
+  background: #4c9be8;
+  color: #ffffff;
+  font-family: 'Comfortaa', 'Segoe UI', Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 9px 22px;
+  border-radius: 7px;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.cta:hover { background: #2563eb; }
 </style>
 </head>
 <body>
-<p><span class="badge">BFF SCHOOL</span>&nbsp;<span class="main">Vuoi migliorare ai Twister?</span></p>
-<p class="sub">Unisciti alla scuola BFF - Best Fish Forever</p>
-<p><a href="https://discord.gg/Bt3EUW2MG" class="cta">Entra su Discord</a></p>
+<a class="banner" href="https://discord.gg/Bt3EUW2MG">
+  <img class="logo" src="https://pietropiraino.github.io/bff-assets/bff_logo.png" alt="BFF">
+  <div class="text">
+    <div class="title">Vuoi migliorare agli Spin &amp; Go / Twister?</div>
+    <div class="sub">Unisciti al gruppo BFF &mdash; Best Fish Forever, la scuola di poker attiva dal 2025!</div>
+  </div>
+  <span class="cta">Entra su Discord &rarr;</span>
+</a>
 </body>
 </html>
