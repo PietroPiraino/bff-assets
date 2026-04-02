@@ -5,5 +5,8 @@
   "subtitle": "Unisciti al gruppo BFF — Best Fish Forever, la scuola di poker attiva dal 2025!",
   "cta": "Entra su Discord →",
   "height": 90,
+  "show_logo": true,
+  "show_icon": true,
+  "logo_url": "https://pietropiraino.github.io/bff-assets/bff_logo.png",
   "bg_image": "https://pietropiraino.github.io/bff-assets/banner_bg.jpg"
 }
